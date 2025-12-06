@@ -2,7 +2,7 @@
 layout: default
 title: About Me
 ---
-[Home](./) | [About](about.html) | [Case Studies](projects.html)
+[Home](./) | [About](about.md) | [Case Studies](projects.md)
 
 # About Me
 
