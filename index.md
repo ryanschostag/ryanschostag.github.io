@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Home
+title: Ryan Schostag
 ---
 [Home](./) | [About](about.md) | [Case Studies](projects.md)
 
