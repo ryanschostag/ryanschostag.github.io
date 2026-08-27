@@ -1,20 +1,10 @@
-[Home](./) | [About](about.md) | [Case Studies](projects.md)
+[Home](./) | [About](about.md) | [Projects](projects.md)
 
 <p align="center">
   <img src="assets/images/logo.png" alt="Logo" width="140"/>
 </p>
 
-<h1 align="center">Ryan Schostag — Data Engineering & Automation Portfolio</h1>
-
-<p align="center">
-  <a href="https://ryanschostag.github.io">
-    <img src="https://img.shields.io/badge/GitHub%20Pages-Live-brightgreen?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/badge/License-MIT-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Theme-Jekyll%20Cayman-orange?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Python-Expert-yellow?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Azure-Databricks%20%7C%20ADF%20%7C%20Synapse-blueviolet?style=for-the-badge" />
-</p>
+<h1 align="center">Ryan Schostag — Python & Data Engineering Consulting</h1>
 
 ---
 
@@ -22,16 +12,15 @@
 
 **https://ryanschostag.github.io**
 
-This site showcases my client-facing work as a Data Engineer specializing in:
+This site is a direct-outreach landing page for short-term technical consulting. It explains how I help businesses with:
 
-- Automated reporting & dashboards  
-- Cloud-based ETL/ELT pipelines  
-- Excel-to-Python workflow automation  
-- Internal APIs & operational tools  
-- Cloud cost optimization  
-- Data quality, validation & observability  
+- Broken or unreliable data pipelines
+- Python and SQL troubleshooting
+- Data cleanup and migration
+- Repetitive reporting and data-work automation
+- API integrations and testing
 
-All pages are written in Markdown and served through GitHub Pages using the Cayman theme.
+Pages are written in Markdown with a small custom Sass layer and served through GitHub Pages using the Cayman theme. The site uses a mailto CTA rather than a backend form or paid third-party service.
 
 ---
 
@@ -43,13 +32,26 @@ All pages are written in Markdown and served through GitHub Pages using the Caym
 ├── projects.md # Case studies & examples
 ├── _config.yml # GitHub Pages configuration
 └── assets/
+  ├── css/
+  │   └── style.scss # Custom responsive theme styling
     └── images/
         └── logo.png # Portfolio logo
 ```
 
+## Verify Before Publishing
+
+1. Work on a feature branch such as `dev` and review the rendered page at desktop and mobile widths.
+2. Check every navigation link, the service pricing language, FAQ disclosures, and each `mailto:` CTA.
+3. Run `git diff --check` to catch whitespace errors.
+4. Build the site locally with `bundle exec jekyll build` when Ruby, Bundler, and Jekyll are installed. The generated `_site/` directory should build without errors.
+5. Push the branch and open a pull request into `main`. Review the changed files and use the pull request's GitHub Pages preview, if enabled.
+6. After merging, open `https://ryanschostag.github.io` in a private browser window and test the live links and email CTA.
+
+GitHub Pages performs the authoritative deployment build. If the local Jekyll command is unavailable, install Ruby and Bundler first or rely on the pull request/deployment build status before merging.
+
 ---
 
-## 🧰 Technologies Highlighted in the Portfolio
+## Technologies Highlighted
 
 - **Python, FastAPI, SQL**
 - **Azure (ADF, Synapse, Blob Storage)**
@@ -57,12 +59,13 @@ All pages are written in Markdown and served through GitHub Pages using the Caym
 - **GitHub Actions & CI/CD**
 - **Docker & containerization**
 - **ETL/ELT architecture & automation**
+- **pytest, data quality, and regression testing**
 
 ---
 
 ## 📬 Contact
 
-If you're interested in working together or discussing a project:
+For a technical consultation or fixed-scope project:
 
 - **Email:** ryan.schostag@gmail.com  
 - **LinkedIn:** https://linkedin.com/in/ryanschostag  
@@ -72,4 +75,4 @@ If you're interested in working together or discussing a project:
 
 ## 📄 License
 
-This portfolio template is open-source and available under the **MIT License**.
+This repository contains the site source for GitHub Pages.
