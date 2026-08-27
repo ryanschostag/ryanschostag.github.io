@@ -1,5 +1,3 @@
-title: Data Engineering & Automation
-description: Professional Data Engineering Portfolio
 title: Ryan Schostag | Python & Data Engineering Consultant
 description: Practical help for broken data pipelines, inherited Python and SQL systems, data migrations, and repetitive manual workflows.
 url: https://ryanschostag.github.io
@@ -8,4 +6,4 @@ logo: /assets/images/logo.png
 lang: en-US
 theme: jekyll-theme-cayman
 plugins:
-	- jekyll-seo-tag
+  - jekyll-seo-tag
