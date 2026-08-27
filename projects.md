@@ -1,91 +1,14 @@
 ---
 layout: default
-title: Case Studies
+title: Projects and Technical Examples
 ---
-[Home](./) | [About](about.md) | [Case Studies](projects.md)
+<header class="site-nav"><a class="brand" href="{{ '/' | relative_url }}">Ryan Schostag<span>/</span> consulting</a><nav aria-label="Primary navigation"><a href="{{ '/#services' | relative_url }}">Services</a><a href="{{ '/about.html' | relative_url }}">About</a><a class="nav-cta" href="mailto:ryan.schostag@gmail.com?subject=Technical%20consultation">Start a conversation</a></nav></header>
 
-# Case Studies & Examples
+<section class="content-section page-intro"><div class="section-label">Projects and examples</div><h1>Evidence of how I think about technical problems.</h1><p class="hero-lede">This page is a technical companion to the consulting offer. It describes the kinds of systems, failure modes, and implementation work I can help with; it does not present hypothetical scenarios as client case studies.</p></section>
 
-Below are examples of the types of automation and data engineering outcomes I deliver.
+<section class="problem-band"><div class="section-label">Relevant problem areas</div><div><h2>From messy inputs to dependable workflows.</h2><p>Useful work can include tracing an ETL failure, normalizing data from several APIs, validating a migration, or making a Python service easier to test and operate.</p></div></section>
 
----
+<section class="content-section"><div class="section-heading"><div class="section-label">Technical examples</div><h2>Patterns I can bring to an existing system.</h2></div><div class="service-grid"><article class="service-card"><div class="service-number">01</div><h3>Pipeline diagnosis</h3><p>Inspect Python, SQL, and cloud pipeline stages; isolate where data or execution goes wrong; and add targeted regression coverage.</p><div class="service-meta">Python · SQL · ETL / ELT</div></article><article class="service-card"><div class="service-number">02</div><h3>Data integration</h3><p>Connect APIs and databases, map inconsistent schemas, validate records, and create a repeatable path from source data to useful output.</p><div class="service-meta">FastAPI · REST APIs · Azure SQL</div></article><article class="service-card"><div class="service-number">03</div><h3>Cloud data workflows</h3><p>Repair and improve transformations and orchestration in Azure Data Factory, Azure Databricks, PySpark, and Azure Synapse environments.</p><div class="service-meta">Azure · PySpark · Delta Lake</div></article><article class="service-card"><div class="service-number">04</div><h3>Automation and quality</h3><p>Replace repeated file and reporting work with tested Python workflows, clear validation rules, and maintainable delivery practices.</p><div class="service-meta">pytest · Docker · GitHub Actions</div></article></div></section>
 
-## 🔧 Excel Reporting → Automated Pipeline
-**Before:**  
-Team spent 8–12 hours weekly merging CSVs and updating spreadsheets manually.
-
-**After:**  
-Python + SQL pipeline refreshes data daily and updates dashboards automatically.  
-**Result:** Saved 30–50 hours per month.
-
----
-
-## 🔧 Broken SQL Pipeline → Clean, Scalable ETL
-**Before:**  
-Frequent failures, inconsistent tables, unreliable analytics.
-
-**After:**  
-Rebuilt ETL in Azure + Databricks, added monitoring and alerting.  
-**Result:** 99% pipeline reliability and faster insights.
-
----
-
-## 🔧 Cloud Cost Optimization
-**Before:**  
-Azure workloads running inefficiently and overspending.
-
-**After:**  
-Optimized clusters, queries, and storage layers.  
-**Result:** 20–40% savings.
-
----
-
-## 🔧 Internal API for Operations
-**Before:**  
-Employees manually downloaded and cleaned data from multiple third-party systems.
-
-**After:**  
-FastAPI service fetches, merges, and cleans data automatically.  
-**Result:** Eliminated 100+ manual tasks each month.
-
----
-
-## 🔧 FastAPI Microservice for Automated Data Integration
-
-**Before:**  
-A client relied on manually downloading CSV exports from three different SaaS platforms (CRM, billing, and support tools). Staff spent 1–2 hours daily downloading files, normalizing columns, merging datasets, and emailing spreadsheets to leadership teams. This created delays, inconsistent data, and human error.
-
-**Challenges:**
-- Data arrived in different formats  
-- Manual workflows caused reporting delays  
-- No centralized API to fetch, clean, or validate data  
-- No automated delivery mechanism for stakeholders  
-
----
-
-**After:**  
-I built a production-ready FastAPI microservice that automated all data retrieval, cleaning, merging, and publishing steps.
-
-### Key Features Delivered
-- **Automated API ingestion** from all third-party systems  
-- **Data normalization** filters and schema mapping  
-- **Automated cleaning & validation** using Pydantic models  
-- **Integrated SQL write-back** for analytics & BI dashboards  
-- **Scheduled batch processing** via background tasks  
-- **Authentication and role-based access controls**  
-- **Logging + monitoring** delivered through structured logs  
-
----
-
-### Result
-- Eliminated **100+ manual tasks per month**  
-- Reduced delivery time from **hours to seconds**  
-- Provided a **single, stable API endpoint** for all integrated datasets  
-- Improved data consistency and reduced operational overhead  
-- Enabled real-time dashboard refreshes using the API as a data source  
-
----
-
-### Tech Stack
-**FastAPI • Python • Pydantic • SQLAlchemy • Azure SQL • GitHub Actions • Docker • OAuth2 Auth**
+<section class="contact-section"><div class="section-label">Discuss a problem</div><h2>Bring the existing system. We can start with the symptoms.</h2><p>Contact me with what is failing, what you have already tried, and what outcome would make the project worthwhile.</p><a class="button button-primary" href="mailto:ryan.schostag@gmail.com?subject=Technical%20consultation">Start a technical conversation <span aria-hidden="true">↗</span></a></section>
 
