@@ -1,5 +1,7 @@
+---
 layout: default
 title: Ryan Schostag
+---
 <header class="site-nav">
 	<a class="brand" href="{{ '/' | relative_url }}">Ryan Schostag<span>/</span> consulting</a>
 	<nav aria-label="Primary navigation">
