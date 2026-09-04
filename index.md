@@ -51,33 +51,35 @@ title: Ryan Schostag
 
 	<section class="contact-section" aria-labelledby="contact-title"><div class="section-label">Start here</div><h2 id="contact-title">Have a technical problem that needs fixing?</h2><p>Tell me what is failing, what it is costing you, and what “working” would look like. I will help you understand the next sensible step.</p><a class="button button-primary" href="mailto:ryan.schostag@gmail.com?subject=Technical%20consultation">Request a technical consultation <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="mailto:ryan.schostag@gmail.com">ryan.schostag@gmail.com</a><a href="https://www.linkedin.com/in/ryanschostag/">LinkedIn</a><a href="https://github.com/ryanschostag">GitHub</a></div></section>
 
-# Data Automation & Engineering Services
+	<section class="content-section" aria-labelledby="automation-title">
+		<div class="section-heading">
+			<div class="section-label">Data automation</div>
+			<h2 id="automation-title">Data Automation &amp; Engineering Services</h2>
+			<p>I help businesses eliminate manual data work and build reliable, automated systems for reporting, analytics, and operations.</p>
+		</div>
 
-I help businesses eliminate manual data work and build reliable, automated systems for reporting, analytics, and operations.
+		<h3>What I Do</h3>
+		<ul>
+			<li>Automated reporting &amp; dashboards</li>
+			<li>Build or repair ETL/ELT pipelines</li>
+			<li>Migrate Excel/CSV workflows into Python or SQL</li>
+			<li>Internal tools &amp; APIs (FastAPI)</li>
+			<li>Cloud cost optimization</li>
+			<li>Data quality cleanup &amp; monitoring</li>
+		</ul>
 
-## 🔧 What I Do
-- Automated reporting & dashboards  
-- Build or repair ETL/ELT pipelines  
-- Migrate Excel/CSV workflows into Python or SQL  
-- Internal tools & APIs (FastAPI)  
-- Cloud cost optimization  
-- Data quality cleanup & monitoring  
+		<h3>Technologies</h3>
+		<p>Python &bull; SQL &bull; Azure &bull; Databricks &bull; Spark &bull; FastAPI &bull; GitHub Actions &bull; Docker &bull; Synapse &bull; Parquet &bull; Delta Lake &bull; Airflow</p>
 
-## 🛠 Technologies
-Python • SQL • Azure • Databricks • Spark • FastAPI • GitHub Actions • Docker • Synapse • Parquet • Delta Lake • Airflow
+		<h3>Pricing</h3>
+		<p><strong>Projects:</strong> $1,500&ndash;$15,000<br>
+		<strong>Hourly:</strong> $75&ndash;$120/hr<br>
+		<strong>Monthly retainers:</strong> $500&ndash;$2,500</p>
 
----
-
-## 📈 Pricing
-**Projects:** $1,500–$15,000  
-**Hourly:** $75–$120/hr  
-**Monthly retainers:** $500–$2,500  
-
----
-
-## 📬 Contact  
-Email: *ryan.schostag@gmail.com*  
-LinkedIn: *[https://www.linkedin.com/in/ryanschostag/](https://www.linkedin.com/in/ryanschostag/)*
+		<h3>Contact</h3>
+		<p>Email: <a href="mailto:ryan.schostag@gmail.com">ryan.schostag@gmail.com</a><br>
+		LinkedIn: <a href="https://www.linkedin.com/in/ryanschostag/">ryan.schostag</a></p>
+	</section>
 
 </main>
 
