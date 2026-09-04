@@ -77,5 +77,7 @@ Python • SQL • Azure • Databricks • Spark • FastAPI • GitHub Actions
 
 ## 📬 Contact  
 Email: *ryan.schostag@gmail.com*  
-LinkedIn: *[https://www.linkedin.com/in/ryanschostag/](https://www.linkedin.com/in/ryanschostag/)*  
+LinkedIn: *[https://www.linkedin.com/in/ryanschostag/](https://www.linkedin.com/in/ryanschostag/)*
+
 </main>
+
