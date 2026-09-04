@@ -50,7 +50,6 @@ title: Ryan Schostag
 	<section class="faq-section" aria-labelledby="faq-title"><div class="section-heading"><div class="section-label">Questions, answered</div><h2 id="faq-title">A small project is enough to get started.</h2></div><div class="faq-grid"><details><summary>Do I need a long-term contract?</summary><p>No. Small, fixed-scope projects are welcome.</p></details><details><summary>Can you work with code someone else built?</summary><p>Yes. Troubleshooting and improving inherited systems is part of the offering.</p></details><details><summary>Do you only work with Azure?</summary><p>No. Azure is one area of expertise; Python, SQL, APIs, databases, automation, and ETL are also supported.</p></details><details><summary>Can you fix an existing pipeline?</summary><p>Yes. Repairing an existing pipeline is a major focus, not just building from scratch.</p></details><details><summary>Do you provide ongoing support?</summary><p>Limited ongoing maintenance or consulting can be discussed when it fits the work.</p></details><details><summary>How do I get started?</summary><p>Email a description of the problem, the technology involved if known, and the outcome you want.</p></details></div></section>
 
 	<section class="contact-section" aria-labelledby="contact-title"><div class="section-label">Start here</div><h2 id="contact-title">Have a technical problem that needs fixing?</h2><p>Tell me what is failing, what it is costing you, and what “working” would look like. I will help you understand the next sensible step.</p><a class="button button-primary" href="mailto:ryan.schostag@gmail.com?subject=Technical%20consultation">Request a technical consultation <span aria-hidden="true">↗</span></a><div class="contact-links"><a href="mailto:ryan.schostag@gmail.com">ryan.schostag@gmail.com</a><a href="https://www.linkedin.com/in/ryanschostag/">LinkedIn</a><a href="https://github.com/ryanschostag">GitHub</a></div></section>
-</main>
 
 # Data Automation & Engineering Services
 
@@ -79,3 +78,4 @@ Python • SQL • Azure • Databricks • Spark • FastAPI • GitHub Actions
 ## 📬 Contact  
 Email: *ryan.schostag@gmail.com*  
 LinkedIn: *[https://www.linkedin.com/in/ryanschostag/](https://www.linkedin.com/in/ryanschostag/)*  
+</main>
